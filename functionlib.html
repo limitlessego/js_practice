@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lIbRARY</title>
+        <meta name="Viewport" content="width=device-width initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+           
+
+        function checkAge(age)
+        {
+            (age > 18) 
+            ? true : confirm('Did parents allow you?')
+        }
+        
+        function checkAge2 (age){
+            if (age < 18 || false)
+            {
+                confirm("did parents let you?")
+            }
+            
+        }
+        function min(a,b){
+            (a > b) ? console.log(b) : console.log(a)
+        }
+        function pow(x, n){
+            result = x
+            n = --n;
+            for (i = 0; i < n; ++i) {
+                
+                result = result * x
+                console.log(result)
+            }
+        }
+            let ask = (q,y,n) => {
+                confirm(q) ? alert(y) : n;
+            }
+            let add7 = number => (number + 7)
+            let multiply =(a,b) => (a * b)
+            let capitalize = sFirst => {
+                sFirst = sFirst.charAt(0).toUpperCase() + sFirst.substring(1)
+                console.log(sFirst)
+            }
+            let lastLetter = lastL => { lastL= lastL.slice(-1)
+             console.log(lastL)
+            }
+        </script>
+    </body>
+</html>
